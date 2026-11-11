@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>SSIT ECE Notes, PYQs &amp; Study Materials | SSIT ECE Resource Hub</title>
+
+  <meta name="google-site-verification" content="nePICPqPpKgbYac89nXSj3ZrUfnoT_5CNgrUsE46Vic" />
+
+  <!-- Primary SEO Meta Tags -->
+  <meta name="title" content="SSIT ECE Notes, PYQs &amp; Study Materials | SSIT ECE Resource Hub" />
+  <meta name="description"
+    content="One place for SSIT ECE notes, PYQs, textbooks and study materials across 3rd, 4th, 5th, 6th, 7th and 8th semesters for Sri Siddhartha Institute of Technology students. Created by B. Pramod." />
+  <meta name="keywords"
+    content="SSIT ECE notes, SSIT ECE notes PDF, SSIT ECE 3rd sem notes, SSIT ECE 4th sem notes, SSIT ECE 5th sem notes, SSIT ECE 6th sem notes, SSIT ECE PYQ, Sri Siddhartha Institute of Technology ECE notes, SSIT Tumakuru ECE resources, B Pramod SSIT" />
+  <meta name="author" content="B. Pramod" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://badiger-pramod.github.io/ssit-ece-resource-hub/" />
+
+  <!-- Open Graph & Social Cards -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://badiger-pramod.github.io/ssit-ece-resource-hub/" />
+  <meta property="og:title" content="SSIT ECE Notes, PYQs &amp; Study Materials | SSIT ECE Resource Hub" />
+  <meta property="og:description"
+    content="Academic resources organized for SSIT ECE students across 3rd to 8th semesters. Created and maintained by B. Pramod." />
+  <meta property="og:site_name" content="SSIT ECE Resource Hub" />
+
+  <!-- Mobile Browser Theme Color -->
+  <meta name="theme-color" content="#2563EB" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/components.css" />
+
+  <style>
+    /* ==========================================================================
+       Custom Upgrades & Refinements for SSIT ECE Resource Hub
+       ========================================================================== */
+    /* Top Creator Section Header Styling */
+    .about-top-section {
+      padding-top: 1.5rem;
+      padding-bottom: 2rem;
+    }
+
+    .creator-lead-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-subtle);
+      border-radius: var(--radius-full);
+      color: var(--primary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .creator-avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 62% 20%;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .creator-intro-text {
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      color: var(--navy-700);
+      margin-bottom: 1.25rem;
+    }
+
+
+    /* Enhanced Semester Cards Action Row */
+    .semester-actions-row {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 1.25rem;
+      width: 100%;
+    }
+
+    .btn-drive-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      min-height: 42px;
+      padding: 8px 14px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      background-color: var(--primary-light);
+      color: var(--primary);
+      border: 1px solid var(--primary-subtle);
+      text-decoration: none;
+      transition: background-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    .btn-drive-action:hover {
+      background-color: #DBEAFE;
+      color: var(--primary-hover);
+    }
+
+    .btn-coming-soon-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      min-height: 42px;
+      padding: 8px 14px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      background-color: var(--neutral-100);
+      color: var(--neutral-500);
+      border: 1px dashed var(--neutral-300);
+      text-align: center;
+    }
+
+    /* Semester Card Icon Badge */
+    .semester-icon-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+
+    .semester-icon-circle {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primary-light);
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .semester-icon-circle svg {
+      width: 22px;
+      height: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Accessibility Skip Navigation Link -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- ================= 1. NAVIGATION BAR ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <!-- Brand Title -->
+        <a href="#about" class="nav-brand" aria-label="SSIT ECE Resource Hub Homepage">
+          <div class="brand-icon-box" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              <line x1="6" y1="6" x2="6.01" y2="6"></line>
+              <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">SSIT ECE Hub</span>
+            <span class="brand-subtitle">Student Portal</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-menu" role="menubar">
+          <li role="none"><a href="#about" class="nav-link active" role="menuitem">Home</a></li>
+          <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+          <li role="none"><a href="#semesters" class="nav-link" role="menuitem">Semesters</a></li>
+          <li role="none"><a href="#why-us" class="nav-link" role="menuitem">Why This Hub</a></li>
+          <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+          <li role="none"><a href="#feedback" class="nav-link" role="menuitem">Feedback</a></li>
+        </ul>
+
+        <!-- Header Actions: WhatsApp -->
+        <div class="header-actions">
+          <a href="https://whatsapp.com/channel/0029VbBs0ymId7nU8XMlQm0M" target="_blank" rel="noopener noreferrer"
+            class="btn btn-sm btn-whatsapp" style="width: auto;" aria-label="Join Official WhatsApp Channel">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+            <span>WhatsApp Channel</span>
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger Button (>= 48px Touch Target) -->
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu"
+          aria-expanded="false" aria-controls="mobile-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Clean Mobile Navigation Drawer -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <span class="mobile-nav-title">SSIT ECE Hub</span>
+      <button type="button" class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <ul class="mobile-nav-links">
+      <li>
+        <a href="https://whatsapp.com/channel/0029VbBs0ymId7nU8XMlQm0M" target="_blank" rel="noopener noreferrer"
+          class="mobile-nav-link"
+          style="background-color: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; font-weight: 700;">
+          <span style="display: flex; align-items: center; gap: 8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: #25D366;">
+              <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+            <span>WhatsApp Channel</span>
+          </span>
+          <span
+            style="font-size: 0.6875rem; background-color: #25D366; color: #fff; padding: 2px 7px; border-radius: 9999px;">Join</span>
+        </a>
+      </li>
+      <li><a href="#about" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About Creator</a></li>
+      <li><a href="#semesters" class="mobile-nav-link">Semester Resources (3rd–8th)</a></li>
+      <li><a href="#why-us" class="mobile-nav-link">Why This Website</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      <li><a href="#feedback" class="mobile-nav-link">Share Feedback</a></li>
+    </ul>
+
+    <div class="mobile-nav-footer">
+      <a href="#semesters" class="btn btn-primary" style="width: 100%; justify-content: center;">Browse Semesters</a>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main id="main-content">
+
+    <!-- ================= 2. ABOUT CREATOR SECTION (IMMEDIATELY BELOW NAVBAR) ================= -->
+    <section class="section about-top-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="creator-wrapper">
+          <!-- Creator Photograph with Face Centering -->
+          <div class="creator-photo-col">
+            <div class="creator-photo-frame" title="B. Pramod (USN: 24EC018) - Creator & Maintainer">
+              <img src="assets/images/pramod.jpg" alt="B. Pramod - Creator of SSIT ECE Resource Hub" width="130"
+                height="130" class="creator-avatar-img"
+                onerror="this.onerror=null; this.src='assets/images/pramod-placeholder.svg';" />
+            </div>
+            <span class="creator-tag-badge">Creator &amp; Maintainer</span>
+          </div>
+
+          <!-- Creator Details & Introduction -->
+          <div class="creator-info-col">
+            <span class="creator-lead-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              </svg>
+              <span>Sri Siddhartha Institute of Technology (SSIT)</span>
+            </span>
+
+            <h1 class="creator-name" id="about-heading">B. Pramod</h1>
+            <p class="creator-dept">Department of Electronics and Communication Engineering (ECE)</p>
+            <p class="creator-college">Sri Siddhartha Institute of Technology, Tumakuru</p>
+
+            <div>
+              <span class="creator-usn-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                <span>USN: 24EC018</span>
+              </span>
+            </div>
+
+            <!-- Short Introduction explaining motivation -->
+            <p class="creator-intro-text">
+              Welcome to the <strong>SSIT ECE Resource Hub</strong>. I created this independent educational platform to
+              help SSIT ECE students access organized semester notes, previous year question papers (PYQs), textbooks,
+              and important study materials easily in one place.
+            </p>
+
+            <!-- Touch Action Buttons (Mobile-First) -->
+            <div class="creator-contact-actions">
+              <a href="#semesters" class="btn btn-primary" aria-label="Explore Semester Resources">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+                <span>Explore Semester Resources</span>
+              </a>
+
+              <a href="https://whatsapp.com/channel/0029VbBs0ymId7nU8XMlQm0M" target="_blank" rel="noopener noreferrer"
+                class="btn btn-whatsapp" aria-label="Join Official WhatsApp Channel">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+                <span>WhatsApp Channel</span>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary" aria-label="Contact B. Pramod">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Contact Info</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. ECE SEMESTER STUDY RESOURCES (3rd to 8th) ================= -->
+    <section class="section" id="semesters" aria-labelledby="semesters-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Academic Materials</span>
+          <h2 class="section-title" id="semesters-title">ECE Semester Study Resources</h2>
+          <p class="section-subtitle">
+            Access notes, question papers, previous-year papers, important questions and other study materials in one
+            place.
+          </p>
+        </div>
+
+        <!-- 6 Semester Cards Grid (Mobile 1-col, Tablet 2-col, Desktop 3-col) -->
+        <div class="semesters-grid" id="semesters-grid-container">
+
+          <!-- 1. 3rd Semester Card -->
+          <article class="semester-card sem-card-3" id="sem-3">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">3rd Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true">
+                <!-- Circuit Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">3rd Semester</h3>
+            <p class="semester-desc">
+              Network Theory, Digital Electronics, Engg Mathematics III, Electronic Devices notes, PYQs &amp;
+              assignments.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">Network Theory</li>
+              <li class="semester-subject-pill">Digital Electronics</li>
+              <li class="semester-subject-pill">Engg Math III</li>
+              <li class="semester-subject-pill">Electronic Devices</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/10A22FDHw3j7eA5kIDYn6FzdEhDXj8HKC" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 3rd Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. 4th Semester Card -->
+          <article class="semester-card sem-card-4" id="sem-4">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">4th Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true" style="background-color: #EEF2FF; color: #4F46E5;">
+                <!-- Wave Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 12h2l3-7 4 14 3-7h2l3-7 4 14 3-7h2"></path>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">4th Semester</h3>
+            <p class="semester-desc">
+              Signals &amp; Systems, Control Systems, Linear Integrated Circuits (LIC), Electromagnetic Waves notes
+              &amp; PYQs.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">Signals &amp; Systems</li>
+              <li class="semester-subject-pill">Control Systems</li>
+              <li class="semester-subject-pill">Op-Amps (LIC)</li>
+              <li class="semester-subject-pill">EM Waves</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/1eTAomKSCOVdGVzwWvMAuI4Y-z9eiLtEl" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 4th Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 3. 5th Semester Card -->
+          <article class="semester-card sem-card-5" id="sem-5">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">5th Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true" style="background-color: #ECFEFF; color: #0891B2;">
+                <!-- Microprocessor Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">5th Semester</h3>
+            <p class="semester-desc">
+              Digital Signal Processing (DSP), Microcontrollers, Information Theory &amp; Coding notes &amp; PYQs.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">DSP</li>
+              <li class="semester-subject-pill">Microcontrollers</li>
+              <li class="semester-subject-pill">Information Theory</li>
+              <li class="semester-subject-pill">Analog &amp; Digital</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/1Vl7GBvbNEtHJhae36wi89-S1IUgjO7qQ" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 5th Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 4. 6th Semester Card -->
+          <article class="semester-card sem-card-6" id="sem-6">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">6th Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true" style="background-color: #FAF5FF; color: #7C3AED;">
+                <!-- Antenna/Chip Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">6th Semester</h3>
+            <p class="semester-desc">
+              VLSI Design &amp; Technology, Antennas &amp; Propagation, Computer Communication Networks notes &amp;
+              PYQs.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">VLSI Design</li>
+              <li class="semester-subject-pill">Antenna &amp; Wave</li>
+              <li class="semester-subject-pill">Computer Networks</li>
+              <li class="semester-subject-pill">Embedded Systems</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/1AP-suBvOmB0LhoK178qOOseBytJG1XCh" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 6th Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 5. 7th Semester Card -->
+          <article class="semester-card sem-card-7" id="sem-7">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">7th Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true" style="background-color: #ECFDF5; color: #059669;">
+                <!-- Wireless / Radar Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">7th Semester</h3>
+            <p class="semester-desc">
+              Wireless Communication, Optical Communication &amp; Networks, Microwave &amp; Radar notes, Project Phase
+              I.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">Wireless &amp; 5G</li>
+              <li class="semester-subject-pill">Optical Networks</li>
+              <li class="semester-subject-pill">Microwave &amp; Radar</li>
+              <li class="semester-subject-pill">Project Phase I</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/1VcCJliUxYvZ04etjz8dSz4T2kYgqFiDf" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 7th Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 6. 8th Semester Card -->
+          <article class="semester-card sem-card-8" id="sem-8">
+            <div class="semester-card-top-accent"></div>
+            <div class="semester-icon-header">
+              <span class="semester-badge">8th Semester ECE</span>
+              <div class="semester-icon-circle" aria-hidden="true" style="background-color: #FFF1F2; color: #E11D48;">
+                <!-- Project Cap Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"></path>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="semester-title">8th Semester</h3>
+            <p class="semester-desc">
+              Major Project Phase II format, Technical Seminar topics &amp; Industry Internship rubrics and viva guides.
+            </p>
+
+            <ul class="semester-subjects-list" aria-label="Core Subjects">
+              <li class="semester-subject-pill">Major Project II</li>
+              <li class="semester-subject-pill">Technical Seminar</li>
+              <li class="semester-subject-pill">Internship Viva</li>
+              <li class="semester-subject-pill">Report Templates</li>
+            </ul>
+
+            <div class="semester-actions-row">
+              <a href="https://drive.google.com/drive/folders/10OqT0GkKHCzddtY2W9A2M-kaDJ8RnKQn" target="_blank"
+                rel="noopener noreferrer" class="btn-drive-action" aria-label="Open 8th Semester Google Drive">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Google Drive Folder</span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. WHY THIS WEBSITE SECTION ================= -->
+    <section class="section" id="why-us" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Student First</span>
+          <h2 class="section-title" id="why-heading">Why Use This Resource Hub?</h2>
+          <p class="section-subtitle">
+            Built to eliminate academic friction and provide effortless access to high-quality study materials.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+            </div>
+            <h3 class="why-title">Easy Access</h3>
+            <p class="why-desc">Find academic resources without searching through multiple WhatsApp groups.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="why-title">Organized Resources</h3>
+            <p class="why-desc">Resources are neatly separated by semester, subject, and curriculum category.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="why-title">Previous Year Papers</h3>
+            <p class="why-desc">Quickly access previous-year question papers, CIE test papers, and exam materials.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="why-title">Student Focused</h3>
+            <p class="why-desc">Designed specifically around the syllabus and exam patterns for SSIT ECE students.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="why-title">Mobile Friendly</h3>
+            <p class="why-desc">Super lightweight and responsive. Students can access study materials directly from
+              smartphones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. CONTACT SECTION ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-section-card">
+          <div class="contact-card-profile">
+            <div class="contact-photo-frame">
+              <img src="assets/images/pramod.jpg" alt="B. Pramod" width="64" height="64"
+                onerror="this.onerror=null; this.src='assets/images/pramod-placeholder.svg';" />
+            </div>
+            <div>
+              <div class="contact-profile-name">B. Pramod</div>
+              <div class="contact-profile-meta">USN: 24EC018 &bull; SSIT ECE Department</div>
+            </div>
+          </div>
+
+          <h2 class="contact-card-title" id="contact-heading">Have Notes to Share or Need Help?</h2>
+          <p class="contact-card-desc">
+            If you have verified study materials, question papers, or suggestions to improve this hub, feel free to
+            reach out. Let's make studying easier for everyone!
+          </p>
+
+          <div class="contact-actions-grid">
+            <a href="https://whatsapp.com/channel/0029VbBs0ymId7nU8XMlQm0M" target="_blank" rel="noopener noreferrer"
+              class="btn btn-whatsapp" aria-label="Join Official WhatsApp Channel">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+              </svg>
+              <span>Join WhatsApp Channel</span>
+            </a>
+
+            <a href="https://wa.me/918197159702?text=Hello%20Pramod,%20I%20am%20visiting%20the%20SSIT%20ECE%20Resource%20Hub%20and%20would%20like%20to%20connect."
+              target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Message on WhatsApp">
+              <span>Message on WhatsApp</span>
+            </a>
+
+            <a href="mailto:badiger.pramod9900@gmail.com" class="btn btn-secondary"
+              aria-label="Send an email to B. Pramod">
+              <span>Email: badiger.pramod9900@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. STUDENT FEEDBACK SECTION (COLLAPSIBLE / EXPANDABLE) ================= -->
+    <section class="section feedback-section" id="feedback" aria-labelledby="feedback-heading">
+      <div class="container">
+        <div class="feedback-card">
+          <div class="feedback-icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <span class="section-badge">Student Voice</span>
+          <h2 class="section-title feedback-title" id="feedback-heading">Share Your Feedback</h2>
+          <p class="feedback-subtitle">
+            Your thoughts and suggestions help us make this resource hub better. Share your experience with us.
+          </p>
+
+          <div class="feedback-toggle-wrap">
+            <button type="button" class="btn-feedback-toggle" id="btn-give-feedback" aria-expanded="false"
+              aria-controls="feedback-form-container">
+              <span>Give Feedback</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Hidden Form Container (Revealed upon clicking Give Feedback) -->
+          <div class="feedback-form-container" id="feedback-form-container">
+            <form id="student-feedback-form" class="feedback-form" novalidate>
+              <!-- Anti-Spam Honeypot Field (Invisible to human students) -->
+              <input type="text" id="feedback-hp" name="_hp_security" class="feedback-honeypot" tabindex="-1"
+                autocomplete="off" />
+
+              <div class="feedback-form-row">
+                <!-- 1. Student Name (Optional) -->
+                <div class="feedback-field">
+                  <label for="feedback-name" class="feedback-label">
+                    1. Student Name <span class="optional-tag">(Optional)</span>
+                  </label>
+                  <input type="text" id="feedback-name" name="studentName" class="feedback-input"
+                    placeholder="Your name (or leave empty to stay anonymous)" maxlength="100" />
+                </div>
+
+                <!-- 2. Semester (3rd, 4th, 5th, 6th, 7th, 8th) -->
+                <div class="feedback-field">
+                  <label for="feedback-semester" class="feedback-label">
+                    2. Semester <span class="required-star">*</span>
+                  </label>
+                  <select id="feedback-semester" name="semester" class="feedback-select" required>
+                    <option value="" disabled selected>Select your current semester</option>
+                    <option value="3rd Semester">3rd Semester ECE</option>
+                    <option value="4th Semester">4th Semester ECE</option>
+                    <option value="5th Semester">5th Semester ECE</option>
+                    <option value="6th Semester">6th Semester ECE</option>
+                    <option value="7th Semester">7th Semester ECE</option>
+                    <option value="8th Semester">8th Semester ECE</option>
+                    <option value="Alumni / Other">Alumni / Other Department</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- 3. What do you think about this website? -->
+              <div class="feedback-field">
+                <label for="feedback-website" class="feedback-label">
+                  3. What do you think about this website?
+                </label>
+                <textarea id="feedback-website" name="websiteFeedback" class="feedback-textarea" rows="3"
+                  placeholder="How is your experience using the notes, PYQs, and layout?"></textarea>
+              </div>
+
+              <!-- 4. ECE Department Feedback -->
+              <div class="feedback-field">
+                <label for="feedback-department" class="feedback-label">
+                  4. What do you think about our ECE Department?
+                </label>
+                <textarea id="feedback-department" name="deptFeedback" class="feedback-textarea" rows="3"
+                  placeholder="Share your experience with our ECE department, faculty, labs, or curriculum..."></textarea>
+              </div>
+
+              <!-- 5. College Feedback -->
+              <div class="feedback-field">
+                <label for="feedback-college" class="feedback-label">
+                  5. Share your thoughts about Sri Siddhartha Institute of Technology (SSIT)
+                </label>
+                <textarea id="feedback-college" name="collegeFeedback" class="feedback-textarea" rows="3"
+                  placeholder="Share your experience and thoughts about college life, facilities, or memories..."></textarea>
+              </div>
+
+              <!-- 6. Suggestions for Improvement -->
+              <div class="feedback-field">
+                <label for="feedback-suggestions" class="feedback-label">
+                  6. What improvements or suggestions would you like to give?
+                </label>
+                <textarea id="feedback-suggestions" name="suggestions" class="feedback-textarea" rows="3"
+                  placeholder="Any specific study materials, question papers, or website features you need?"></textarea>
+              </div>
+
+              <div class="feedback-actions">
+                <button type="submit" class="btn-feedback-submit" id="btn-feedback-submit">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  <span>Submit Feedback</span>
+                </button>
+                <p class="feedback-privacy-note">
+                  🔒 Responses are securely stored in a private Google Sheet. Your submission can be anonymous.
+                </p>
+              </div>
+
+              <!-- Submission Alerts -->
+              <div class="feedback-alert feedback-alert-success" id="feedback-alert-success" role="alert">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  style="flex-shrink: 0;">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Thank you for sharing your feedback! Your thoughts are valuable to us.</span>
+              </div>
+
+              <div class="feedback-alert feedback-alert-error" id="feedback-alert-error" role="alert">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  style="flex-shrink: 0;">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span id="feedback-error-text">Submission failed. Please check your internet connection and try
+                  again.</span>
+              </div>
+
+              <div class="feedback-alert feedback-alert-info" id="feedback-alert-info" role="alert">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  style="flex-shrink: 0;">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <span id="feedback-info-text">Google Sheets backend is being connected. Please ensure your Web App URL
+                  is set in <code>js/feedback.js</code>.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= 7. FOOTER ================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <div class="brand-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              </svg>
+            </div>
+            <span class="footer-brand-name">SSIT ECE Resource Hub</span>
+          </div>
+          <p class="footer-tagline">
+            “One Place for SSIT ECE Study Resources.” Created and maintained by <strong>B. Pramod</strong> (USN:
+            <code>24EC018</code>).
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#about" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Creator</a></li>
+            <li><a href="#semesters" class="footer-link">Semester Resources</a></li>
+            <li><a href="#why-us" class="footer-link">Why This Website</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li><a href="#feedback" class="footer-link">Share Feedback</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Semesters</h4>
+          <ul class="footer-links-list">
+            <li><a href="3rd-semester-ece-notes.html" class="footer-link">3rd Semester Notes</a></li>
+            <li><a href="4th-semester-ece-notes.html" class="footer-link">4th Semester Notes</a></li>
+            <li><a href="5th-semester-ece-notes.html" class="footer-link">5th Semester Notes</a></li>
+            <li><a href="6th-semester-ece-notes.html" class="footer-link">6th Semester Notes</a></li>
+            <li><a href="7th-semester-ece-notes.html" class="footer-link">7th Semester Notes</a></li>
+            <li><a href="8th-semester-ece-notes.html" class="footer-link">8th Semester Notes</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <strong>Academic Disclaimer:</strong> This is an independent student resource website created to help SSIT ECE
+          students easily access educational materials. It is not an official website of Sri Siddhartha Institute of
+          Technology.
+        </div>
+        <div class="footer-copyright">
+          SSIT ECE Resource Hub &copy; 2024–2026. Created with pride by <strong>B. Pramod (USN: 24EC018)</strong>.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script>
+    (function () {
+      'use strict';
+
+      // --- Mobile Navigation Drawer Toggle ---
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+      const mobileOverlay = document.getElementById('mobile-nav-overlay');
+      const mobileClose = document.getElementById('mobile-nav-close');
+      const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+      function openNav() {
+        if (!mobileNav || !mobileOverlay || !mobileBtn) return;
+        mobileNav.classList.add('open');
+        mobileOverlay.classList.add('open');
+        mobileBtn.setAttribute('aria-expanded', 'true');
+        document.body.classList.add('no-scroll');
+      }
+
+      function closeNav() {
+        if (!mobileNav || !mobileOverlay || !mobileBtn) return;
+        mobileNav.classList.remove('open');
+        mobileOverlay.classList.remove('open');
+        mobileBtn.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('no-scroll');
+      }
+
+      if (mobileBtn) mobileBtn.addEventListener('click', () => {
+        if (mobileNav.classList.contains('open')) closeNav();
+        else openNav();
+      });
+
+      if (mobileClose) mobileClose.addEventListener('click', closeNav);
+      if (mobileOverlay) mobileOverlay.addEventListener('click', closeNav);
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', closeNav);
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileNav && mobileNav.classList.contains('open')) {
+          closeNav();
+        }
+      });
+
+    })();
+  </script>
+  <script src="js/feedback.js"></script>
+
+</body>
+
+</html>

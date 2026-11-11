@@ -1,0 +1,8 @@
+# robots.txt for SSIT ECE Resource Hub
+# Allow all search engine crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://badiger-pramod.github.io/ssit-ece-resource-hub/sitemap.xml
